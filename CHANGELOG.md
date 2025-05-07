@@ -1,5 +1,10 @@
 # Cap-EC2 changelog
 
+## 1.1.4
+
+* Changed File.exists to File.exist as .exists is deprecated since Ruby 2.2.0
+* Required minimum Ruby version 2.2.0
+
 ## 1.1.2
 
 * Allow using aws-sdk v3 [@magnusvk](https://github.com/magnusvk)
